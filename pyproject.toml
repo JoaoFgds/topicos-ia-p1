@@ -17,7 +17,8 @@ dependencies = [
     "seaborn (>=0.13.2,<0.14.0)",
     "plotly (>=6.0.1,<7.0.0)",
     "streamlit (>=1.44.1,<2.0.0)",
-    "tensorflow (>=2.19.0,<3.0.0)"
+    "tensorflow (>=2.19.0,<3.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)"
 ]
 
 [build-system]
@@ -27,3 +28,5 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.dependencies]
 python = "^3.11"
 
+[tool.flake8]
+ignore = ["E501"]
